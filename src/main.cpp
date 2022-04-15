@@ -12,7 +12,7 @@ void setup()
 
 void loop()
 {
-  
+  // haha
   tft.drawString(String(i), 50, 100, 6);
   sleep(1);
   i++;
