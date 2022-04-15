@@ -13,6 +13,7 @@ void setup()
 void loop()
 {
   // haha
+  // testing this feature
   tft.drawString(String(i), 50, 100, 6);
   sleep(1);
   i++;
