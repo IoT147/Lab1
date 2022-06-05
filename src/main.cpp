@@ -33,13 +33,13 @@ Servo myservo; // create servo object to control a servo
 // Adafruit_CAP1188 cap = Adafruit_CAP1188();
 
 // Or...Use I2C, with reset pin
-// Adafruit_CAP1188 cap = Adafruit_CAP1188(CAP1188_RESET);
+Adafruit_CAP1188 cap = Adafruit_CAP1188(CAP1188_RESET);
 
 // Or... Hardware SPI, CS pin & reset pin 
 // Adafruit_CAP1188 cap = Adafruit_CAP1188(CAP1188_CS, CAP1188_RESET);
 
 // Or.. Software SPI: clock, miso, mosi, cs, reset
-Adafruit_CAP1188 cap = Adafruit_CAP1188(CAP1188_CLK, CAP1188_MISO, CAP1188_MOSI, CAP1188_CS, CAP1188_RESET);
+// Adafruit_CAP1188 cap = Adafruit_CAP1188(CAP1188_CLK, CAP1188_MISO, CAP1188_MOSI, CAP1188_CS, CAP1188_RESET);
 
 void setup() {
   //pinMode(SDA, INPUT);
